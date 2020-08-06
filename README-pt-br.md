@@ -29,14 +29,14 @@
 
 <br>
 <p align="center">
-    Online teaching platform made with React Native using Typescript during the<a src="https://nextlevelweek.com"> NLW (Next Level Week) #02</a>🚀
+    Conectando professores com estudantes. Uma plataforma web e mobile criada durante a Next Level Week  #02 da @Rocketseat</a> 🚀
 </p>
 
 
 
 <div align="center">  
     
-[![License][license-badge]][license-url]
+[![license][license-badge]][license-url]
 ![Git Stars][star-badge]
 ![Last Commit][last-commit-badge]
 ![Codacy Quality][codacy-badge]
@@ -45,43 +45,44 @@
 </div>
 
 <p align="center">
-    <a href="README.md">English</a>
+    <a href="README.md">Ingçês</a>
     ·
-    <a href="README-pt.md">Portuguese</a>
+    <a href="README-pt-br.md">Português</a>
  </p>
 
-### Content
-* [Getting Started](#Getting-Started-)
-    * [Cloning](#Cloning)
-    * [Requirements](#Requirements)
-        * [Web](#Web)
-        * [Server](#Server)
-        * [Mobile](#Mobile)
-    * [Running](#Running)
-* [Issues](#Issues-)
-    * [Report](#Report)
-* [Contributing](#Contributing-)
-* [License](#License-)
+### Conteúdo
+* [Iniciando](#Getting-Started-)
+    * [Clone](#Cloning)
+    * [Requisitos](#Requisitos)
+        * [Web](#Web-)
+        * [Servidor](#Server-)
+        * [Aplicativo Mobile](#Mobile-)
+    * [Tecnologias](#Technologies)
+    * [Executando](#Running)
+* [Problemas](#Issues-)
+    * [Reportar](#Report)
+* [Contribuição](#Contributing-)
+* [Licença](#License-)
 
-### Getting Started 🚀
+### Iniciando 🚀
 
-#### Cloning
+#### Clone
 
 ```ps
-# Clone the repository using git
+# Faça o clone do repositório usando git
 $ git clone https://github.com/richielybmp/proffy.git
 
-# Access the project folder
+# Acesse a pasta do projeto
 $ cd proffy
 ```
 
-#### Requirements
+#### Requisitos
 * [Node.js][node-url]
 * [Yarn][yarn-url] or [npm][npm-url]
 * [Expo][expo-url]
 
 #### Technologies
-This project was made using the follow technologies:
+Esse projeto foi criado utilizando as seguintes tecnologias:
 <ul>
   <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
   <li><a href="https://reactnative.dev/">React Native</a></li>
@@ -93,20 +94,20 @@ This project was made using the follow technologies:
 
 ##### Server 📦
 
-This project use third party dependencies that need to be installed, use that command to install all needed dependencies
+Esse projeto usa dependências de terceios que precisam ser instaladas, use o comando a seguir para instalar todas as dependências necessárias:
 
 ```ps
 $ cd server
 $ yarn install
 ```
 
->The above command will install all third party dependencies used. If you want to install manually all the dependencies follow the steps bellow
+>Os comandos abaixo irão instalar todas as dependências de terceiros utilizadas no projeto. Se você quisar instalá-las manualmente, siga os passos abaixo:
 
 ```ps
-# Entering in server directory
+# Acesse o diretório do server
 $ cd server
 
-# Installing depencies
+# Instalando dependências
 $ yarn add @types/cors -D
 $ yarn add @types/express -D
 $ yarn add ts-node-dev -D
@@ -116,45 +117,46 @@ $ yarn add sqlite3
 
 ##### Web 💻
 
-This project use third party dependencies that need to be installed, use that command to install all needed dependencies
+Esse projeto usa dependências de terceios que precisam ser instaladas, use o comando a seguir para instalar todas as dependências necessárias:
 
 ```ps
 $ cd web
 $ yarn install
 ```
 
->The above command will install all third party dependencies used. If you want to install manually all the dependencies follow the steps bellow
+>Os comandos abaixo irão instalar todas as dependências de terceiros utilizadas no projeto. Se você quisar instalá-las manualmente, siga os passos abaixo:
 
 ```ps
-# Entering in web directory
+# Acesse o diretório web
 $ cd web
 
-# Installing depencies
+# Instalando dependências
 $ yarn add @types/react-router-dom -D
 $ yarn add axios
 ```
 
 ##### Mobile 📱
 
-This projects use third party dependecies and fonts that need to be installed in development, use that command to install all needed dependencies and fonts
+Esse projeto usa dependências de terceios e fontes que precisam ser instaladas, use o comando a seguir para instalar todas as dependências e fontes necessárias:
 
 ```ps
+# Acesse o diretório mobile
 $ cd mobile
 
-# Installing all fonts used
+# Instalando todas fontes usadas
 $ expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
 
-# Installing all dependencies required
+# Instalando dependências
 $ yarn install
 ```
->The above command will install all third party dependencies and fonts used. If you want to install manually all dependencies and fonts used. follow the steps bellow
+>Os comandos abaixo irão instalar todas as dependências de terceiros utilizadas no projeto. Se você quisar instalá-las manualmente, siga os passos abaixo:
 
 ```ps
-# Installing fonts used
+# Instalando fontes usadas
 $ expo install expo-font @expo-google-fonts/archivo
 $ expo install expo-font @expo-google-fonts/poppins
 
-# Installing dependecies required
+# Instalando dependências
 $ yarn add @react-navigation/native
 $ expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 $ yarn add @react-navigation/stack
@@ -163,33 +165,33 @@ $ yarn add @react-navigation/bottom-tabs
 
 #### Running
 
-To start the Web Server run the command
+Para iniciar o projeto web, execute o comando:
 
 ```ps
-# Entering in web directory
+# Acessando o diretório web
 $ cd web
 
-# Run the web server
+# Executando o web
 $ yarn start
 ```
 
-To start the Back Server run the command
+Para iniciar o servidor back-end, execute o comando:
 
 ```ps
-# Entering in Server directory
+# Acessando o diretório server
 $ cd server
 
-# Run the Back Server
+# Executando o server
 $ yarn start
 ```
 
-To run the mobile version run the command
+para iniciar o aplicativo mobile, execute o comando:
 
 ```ps
-# Entering in Mobile directory
+# Acessando o diretório mobile
 $ cd mobile
 
-# Run the Mobile Version
+# Executando o aplicativo mobile
 $ yarn start
 ```
 
@@ -197,13 +199,13 @@ $ yarn start
 
 #### Report
 
-In case you are having any problem do not be shy to report to us in [Issues][issues-url] session.
+Caso você estiver com problemas, sinta-se livre para reportar na sessão [Issues][issues-url].
 
 ### Contributing 🤝 
 
-There are many forms to contribute with the project, first of all you can give this github repo a Star.
+Existem várias formas de contribuir com esse projeto.
 
-If you want do help with the code follow the steps bellow
+Se você quiser nos ajudar com o código, siga os seguintes passos:
 
 ```ps
 # Fork using GitHub official command line
@@ -224,10 +226,10 @@ $ git commit -m 'Feat: {feature-name}'
 $ git push origin {branch-name}
 ```
 
-Then send a Pull Request that will be analyzed and approved if it helps with the project
+Depois envie um Pull Request que será analizado e aprovado se o código ajudar com o projeto.
 
 
 ### License 📝
-This project is under the MIT license. See the [LICENSE][license-url] for more information.
+Esse projeto está sob a licença MIT. Veja a [LICENÇA][license-url] para mais informações.
 
-Give a ⭐️ if this project helped you!
+Dê uma ⭐️ se esse projeto de ajudou de alguma forma!
