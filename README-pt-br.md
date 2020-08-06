@@ -47,7 +47,7 @@
 <p align="center">
     <a href="README.md">English</a>
     ·
-    <a href="README-pt-br.md">Portuguese</a>
+    <a href="README-pt.md">Portuguese</a>
  </p>
 
 ### Content
