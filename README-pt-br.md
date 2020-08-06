@@ -94,6 +94,10 @@ Esse projeto foi criado utilizando as seguintes tecnologias:
 
 ##### Server 📦
 
+###### :information_source: Deploy
+
+- https://nlw2-proffy-backend.herokuapp.com
+
 Esse projeto usa dependências de terceios que precisam ser instaladas, use o comando a seguir para instalar todas as dependências necessárias:
 
 ```ps
