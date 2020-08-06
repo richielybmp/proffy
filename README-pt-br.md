@@ -121,6 +121,10 @@ $ yarn add sqlite3
 
 ##### Web 💻
 
+###### :information_source: Deploy
+
+- https://nlw2-proffy-web.herokuapp.com
+
 Esse projeto usa dependências de terceios que precisam ser instaladas, use o comando a seguir para instalar todas as dependências necessárias:
 
 ```ps
