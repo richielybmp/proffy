@@ -39,8 +39,6 @@
 [![License][license-badge]][license-url]
 ![Git Stars][star-badge]
 ![Last Commit][last-commit-badge]
-[![Netfly Stats][netfly-badge]][netfly-url]
-![NLW Stats][nlw-badge]
 ![Codacy Quality][codacy-badge]
 
 
@@ -53,11 +51,10 @@
     * [Requirements](#Requirements)
         * [Web](#Web)
         * [Server](#Server)
-        * ~~Mobile~~
+        * [Mobile](#Mobile)
     * [Running](#Running)
 * [Issues](#Issues-)
     * [Report](#Report)
-    * ~~Trouble Shooting~~
 * [Contributing](#Contributing-)
 * [License](#License-)
 
@@ -145,7 +142,7 @@ $ expo install expo-font @expo-google-fonts/poppins
 $ yarn add @react-navigation/native
 $ expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 $ yarn add @react-navigation/stack
-yarn add @react-navigation/bottom-tabs
+$ yarn add @react-navigation/bottom-tabs
 ```
 
 #### Running
