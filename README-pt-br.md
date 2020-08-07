@@ -191,7 +191,7 @@ Para iniciar o servidor back-end, execute o comando:
 $ cd server
 
 # Executando o server
-$ yarn start
+$ yarn dev:server
 ```
 
 para iniciar o aplicativo mobile, execute o comando:

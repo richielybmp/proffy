@@ -22,7 +22,7 @@ function GiveClasses() {
                 source={giveClassesBgImage} 
                 style={styles.content}
             >
-                <Text style={styles.title}>Want to be a Proffy?</Text>
+                <Text style={styles.title}>Do you want to be a Proffy?</Text>
                 <Text style={styles.description}>To start, you need to sign up as a teacher on our web platform</Text>
             </ImageBackground>
 
@@ -30,7 +30,7 @@ function GiveClasses() {
                 style={[styles.button]}
                 onPress={handleNavigateBack}
             >
-                <Text style={styles.buttonText}>Ok</Text>
+                <Text style={styles.buttonText}>Got it!</Text>
             </RectButton>
         </View>
     )

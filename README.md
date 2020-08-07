@@ -190,7 +190,7 @@ To start the Back Server run the command
 $ cd server
 
 # Run the Back Server
-$ yarn start
+$ yarn dev:server
 ```
 
 To run the mobile version run the command
