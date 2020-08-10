@@ -1,0 +1,147 @@
+#page-signin {
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-primary);
+}
+
+.page-signin-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-content {
+    flex: 1;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-content-background {
+    width: 70.5rem;
+    height: 66.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-content h2 {
+    margin-top: -2rem;
+    max-width: 20rem;
+    color: var(--color-text-in-primary);
+}
+
+.form-content {
+    flex: 1;
+    height: 100%;
+    background: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-content form {
+    /* width: 80rem; */
+    width: 90%;
+    height: 40rem;
+}
+
+.form-content form legend {
+    font: 700 5rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 4rem;
+}
+
+.form-content form fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content form fieldset input[type="email"], input[type="password"] {
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #E6E6F0;
+    background: var(--color-input-background);
+}
+
+.form-content button {
+    background-color: var(--color-secundary);
+    color: #ffffff;
+    font: 700 1.6rem Archivo;
+    cursor: pointer;
+    border-radius: 8px;
+    height: 60px;
+    border: 0;
+}
+
+.form-content button:hover {
+    background: var(--color-secundary-dark);
+}
+
+.signin-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 4rem 0;
+}
+
+.footer-options {
+    position: absolute;
+    bottom: 5rem;
+    width: 90%;
+    font-weight: 800;
+}
+
+.footer-options-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-options-top .free {
+    font-weight: 100;
+    opacity: .7;
+}
+
+.check-remember label, .footer-options-top img {
+    margin-left: 1rem;
+}
+
+.link-forgot {
+    color: var(--color-text-base);
+}
+
+.link-signup {
+    color: var(--color-primary);
+}
+
+@media(max-height:400px) {
+    .form-content form {
+        margin-top: 30rem;
+    }
+}
+
+@media(max-height:550px) {
+    .footer-options {
+        position: unset;
+        margin-top:10rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    .logo-content {
+        display: flex;
+    }
+
+    .form-content form {
+        width: 60%;
+    }
+
+    .footer-options {
+        width: 30%;
+    }
+}
+
